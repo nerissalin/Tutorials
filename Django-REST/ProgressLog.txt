@@ -1,0 +1,8 @@
+Wed. December 23, 2015
+-Working on Django REST framework
+	- http://www.django-rest-framework.org/tutorial/1-serialization/
+-Added a virtual environment
+	-Works only when command called from directory where env exists
+	-Useful for keeping dependencies in seperate places 
+	-ie. this project needs Django 1.0 but another would need Django 1.3
+
