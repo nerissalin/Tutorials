@@ -5,4 +5,13 @@ Wed. December 23, 2015
 	-Works only when command called from directory where env exists
 	-Useful for keeping dependencies in seperate places 
 	-ie. this project needs Django 1.0 but another would need Django 1.3
-
+-Ran command django-admin.py startproject tutorial
+	-makes a structure with a file tutorial and the following:
+		-manage.py instead of django-admin.py
+		-__init__.py which indicates the folder is a package
+		-settings.py settings file created from a template
+		-urls.py for URL structure
+		-wsgi.py for WSGI script
+-Running "Python manage.py startapp snippets" to make Web API
+	- cannot get it to work due to issues searching for django admin files
+	- need to get access to wifi to do this... rip me
