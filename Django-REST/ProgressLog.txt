@@ -12,6 +12,11 @@ Wed. December 23, 2015
 		-settings.py settings file created from a template
 		-urls.py for URL structure
 		-wsgi.py for WSGI script
--Running "Python manage.py startapp snippets" to make Web API
-	- cannot get it to work due to issues searching for django admin files
-	- need to get access to wifi to do this... rip me
+
+Sat. December 26, 2015
+-Running "Python3 manage.py startapp snippets" to make Web API
+-Added Snippets app and rest framework app to InstalledApps in settings file
+-Added root urlconf to urls.py file under url patterns
+
+Tues. Dec 29, 2015
+-Running into issues with python3 probably going to restart after doing a basic Django tutorial
