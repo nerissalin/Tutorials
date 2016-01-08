@@ -13,3 +13,4 @@ Thu. Jan7, 2015
 - pre deactivate will clean it up before deactivating
 - accidentally renamed everything django 1.9 but actually running on 1.8.5
 - use hooks to hide information like secret_key
+- .git ignore files that aren’t necessary, pushed up to github we’re up and running!
