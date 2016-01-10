@@ -14,3 +14,9 @@ Thu. Jan7, 2015
 - accidentally renamed everything django 1.9 but actually running on 1.8.5
 - use hooks to hide information like secret_key
 - .git ignore files that aren’t necessary, pushed up to github we’re up and running!
+
+Sat. Jan9, 2015
+- Setting up Homepage 
+- Checked installed apps for “django.contrib.staticfiles”
+- adding static url -> guides django to look for static files in folder named static
+- adding Static Files directory in the same way that base dir was found
