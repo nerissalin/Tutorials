@@ -20,3 +20,5 @@ Sat. Jan9, 2015
 - Checked installed apps for “django.contrib.staticfiles”
 - adding static url -> guides django to look for static files in folder named static
 - adding Static Files directory in the same way that base dir was found
+- slightly modifying templates as well
+- using initializer - moving files to the right places
