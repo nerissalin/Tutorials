@@ -1,0 +1,25 @@
+Thu. Jan7, 2015
+- Set up the work environment for Django Task Busters Tutorial
+- Setting up a test for the project - "Tests functionality from user POV"
+- Got through part 1, Check out files for Selenium to use to test more thoroughly at a later stage
+
+- pip freeze > requirements.txt 
+- make requirements for each environment for editing needed packages
+- staging.txt file for semi-private version of site on production server
+- working off Django 1.9 instead of 1.8 ._.
+- need for different settings.py so we create file and make them inherit from base.py which is original settings.py moved
+- different hooks for virtualenvwrapper - preactivate, post activate, predeactivate, postdeactivate
+- setting a post activate script that will set Django_settings_module variable just after activating
+- pre deactivate will clean it up before deactivating
+- accidentally renamed everything django 1.9 but actually running on 1.8.5
+- use hooks to hide information like secret_key
+- .git ignore files that aren’t necessary, pushed up to github we’re up and running!
+
+Sat. Jan9, 2015
+- Setting up Homepage 
+- Checked installed apps for “django.contrib.staticfiles”
+- adding static url -> guides django to look for static files in folder named static
+- adding Static Files directory in the same way that base dir was found
+- slightly modifying templates as well
+- using initializer - moving files to the right places
+- in views.py we are making a call to render -> loads a template, create a context adding a bunch of variables, current language, render it and return http response
