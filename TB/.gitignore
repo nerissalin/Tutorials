@@ -2,3 +2,5 @@ db.sqlite3
 __pycache__
 Django1.9.sublime-workspace
 myenv
+.coverage
+htmlcov

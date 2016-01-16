@@ -23,3 +23,14 @@ Sat. Jan9, 2015
 - slightly modifying templates as well
 - using initializer - moving files to the right places
 - in views.py we are making a call to render -> loads a template, create a context adding a bunch of variables, current language, render it and return http response
+
+Thurs. Jan14, 2015
+- Finished the part 3 template inheritance, took a long time to debug but finished
+
+Friday Jan15, 2015
+- Starting part 4. Since robot and humans.txt may be parsed by search engines we're taking them available at the urls
+- Added the functional tests for it to make sure they exist
+- Making an update to urls to add home_views and regex: r'^(?P<filename>(robots.txt)|(humans.txt))$',
+home_files, name='home-files')," that takes desired urls and passes as argument the filename.
+- Testing with coverage: install, greeze and report
+
