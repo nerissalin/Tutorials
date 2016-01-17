@@ -27,10 +27,15 @@ Sat. Jan9, 2015
 Thurs. Jan14, 2015
 - Finished the part 3 template inheritance, took a long time to debug but finished
 
-Friday Jan15, 2015
+Fri. Jan15, 2015
 - Starting part 4. Since robot and humans.txt may be parsed by search engines we're taking them available at the urls
 - Added the functional tests for it to make sure they exist
 - Making an update to urls to add home_views and regex: r'^(?P<filename>(robots.txt)|(humans.txt))$',
 home_files, name='home-files')," that takes desired urls and passes as argument the filename.
-- Testing with coverage: install, greeze and report
+- Testing with coverage: install, freeze and report
+- Checks the lines of code run and not ran 
 
+Sat. Jan16, 2015
+- Working on part 5(internationalization - supporting multiple languages, localization, languages, time zones)
+- ugettext translates immediately vs ugettext_lazy translates when rendering templates
+- need GNU text

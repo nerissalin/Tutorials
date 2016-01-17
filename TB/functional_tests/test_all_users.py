@@ -2,13 +2,14 @@
 from selenium import webdriver
 from django.core.urlresolvers import reverse
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase  
- 
+from django.utils.translation import activate
  
 class HomeNewVisitorTest(StaticLiveServerTestCase): 
  
     def setUp(self):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
+        activate('en')
  
     def tearDown(self):
         self.browser.quit()
@@ -31,3 +32,6 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         self.assertNotIn("Not Found", self.browser.title)
         self.browser.get(self.live_server_url + "/humans.txt")
         self.assertNotIn("Not Found", self.browser.title)
+
+    def test_internationalization(self):
+        
